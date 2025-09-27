@@ -8,8 +8,8 @@ const sftp = new Client();
 
 // Update with your own details
 const sftpConfig = {
-  host: '0.tcp.ngrok.io',
-  port: 18716,
+  host: '6.tcp.ngrok.io',
+  port: 19914,
   username: 'krishnareddy',
   password: 'Krishna7879', // or use privateKey
 };
