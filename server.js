@@ -14,7 +14,7 @@ const sftpConfig = {
   password: 'Krishna7879', // or use privateKey
 };
 
-const REMOTE_PATH = '/Users/your_mac_username/Documents'; // folder on your Mac
+const REMOTE_PATH = '/Users/krishnareddy/Documents'; // folder on your Mac
 
 // Endpoint 1: List file names
 app.get('/files', async (req, res) => {
