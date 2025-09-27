@@ -1,14 +1,12 @@
 {
-  "name": "azure-sftp-api",
+  "name": "sftp-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ssh2-sftp-client": "^9.0.0",
-    "dotenv": "^16.0.0",
-    "morgan": "^1.10.0"
+    "ssh2-sftp-client": "^8.0.1"
   }
 }
